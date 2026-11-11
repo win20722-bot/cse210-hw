@@ -10,6 +10,7 @@ class Program
         {
             Random randomGenerator = new Random();
             int magicNum = randomGenerator.Next(1, 101);
+            
             int guessNum = -1;
             int count = 0;
 
